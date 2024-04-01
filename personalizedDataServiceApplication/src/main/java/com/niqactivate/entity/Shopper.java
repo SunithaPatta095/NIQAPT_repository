@@ -40,13 +40,4 @@ public class Shopper {
 	@JoinColumn(name = "shopper_id", referencedColumnName = "shopper_id")
 	private List<ProductShelfItem> shelf;
 
-	public String getShopperId() {
-
-		return shopperId;
-	}
-
-	public Long getId() {
-		return id;
-	}
-
 }
